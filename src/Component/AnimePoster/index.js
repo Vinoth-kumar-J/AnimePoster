@@ -50,7 +50,7 @@ const Anime = () => {
                             <div className='col col-sm-4 col-md-3  my-1 example' key={anime.mal_id}>
                                 <Link to={`./${anime.mal_id}`} style={{ textDecoration: "none", color: "black" }}>
                                     <div >
-                                        <img src={anime.images.webp.image_url} onClick={() => handleAddToCart(anime)} className="rounded my-auto" style={{ height: "200px", width: '150px', float: 'left'}} />
+                                        <img src={anime.images.webp.image_url} alt='' onClick={() => handleAddToCart(anime)} className="rounded my-auto" style={{ height: "200px", width: '150px', float: 'left'}} />
                                     </div>
                                 </Link>
 
